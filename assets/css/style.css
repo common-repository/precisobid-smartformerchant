@@ -1,0 +1,803 @@
+/*
+ * Preciso plugin main CSS
+*/
+
+body.toplevel_page_logico-show {
+  background: #eaeef1 !important;
+}
+
+.login-box label {
+  font-weight: unset;
+}
+
+.toplevel_page_logico-show .login-box .form-control {
+  border: 1px solid #e9eaec !important;
+  background-color: #eaeef1 !important;
+  color: #000 !important;
+}
+.registration-box select {
+  font-size: 12px;
+}
+.registration_wrp textarea.form-control
+{
+  height: 60px;
+}
+span.alert_note {
+    color: #1b507f;
+    margin-left: 2%;
+    font-size: 14px;
+}
+.alert_note {
+    margin-top: 5px;
+}
+.alert_note table td, .alert_note table, .alert_note table tr {
+    border-bottom: 0px !important;
+    font-size: 12px;
+    color: #1b507f;
+    vertical-align: top !important;
+}
+.alert_note table td.td_left {
+    width: 60px;
+}
+.alert_note li {
+    list-style: disc;
+    text-indent: 0px;
+    padding-bottom: 5px;
+}
+
+.nav-item.show.nav-link.col-14:focus {
+  box-shadow: none !important;
+}
+
+.registration_wrp {
+  padding: 50px;
+  background-color: #eaeef1 !important;
+  padding-bottom:20px;
+}
+
+.section-title span {
+  color: #1b507f;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.registration_wrp h2 {
+  text-align: center;
+}
+
+form {
+  padding: 5px 25px;
+}
+
+.form-group {
+  /*display: inline-block;
+    width: 24%;
+    margin-bottom: 10px;*/;
+}
+
+.form-row {
+  /*display: inline-block;
+    width: 24%;*/;
+}
+
+.form-control {
+  border: 1px solid #e9eaec;
+  background-color: #eaeef1;
+  color: #000;
+}
+
+.submit_wrp {
+  text-align: center;
+  width: 100%;
+}
+
+input#regisnSubmit {
+  width: 25%;
+  background-color: #1b507f;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #1b507f;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+input#regisnSubmit:hover {
+  cursor: pointer;
+}
+
+.l-header .logo {
+  height: 90px;
+}
+
+
+
+.clear {
+  clear: both;
+}
+
+.login-wrap {
+  width: 100%;
+  margin: 0 auto;
+  height: 82%;
+  position: relative;
+}
+
+.login-box {
+  background-color: #fff;
+  margin: 0 auto;
+  color: #fff;
+  max-width: 320px;
+  width: 92%;
+  position: relative;
+  margin-left: auto;
+  max-width: 880px!important;
+ 
+}
+
+.login-box .main-icon {
+  background-image: url(../images/kiaro.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.main-icon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  background-color: #eaeef1;
+  font-size: 140px;
+  color: #01a8df;
+  top: -44px;
+  left: 53%;
+  margin-left: -70px;
+  text-align: center;
+  padding-top: 12px;
+  overflow: hidden;
+}
+
+label {
+  color: #000;
+}
+
+.login-box .main-icon .fa {
+  display: none;
+}
+
+span.star {
+  color: red;
+  font-size: 13px;
+}
+
+.loader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/loader.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 99999999999!important;
+  background-size: 120px 120px;
+}
+
+.api-loader {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: block;
+}
+
+.form-group p {
+  color: red;
+}
+
+.emailerror,
+.domainerror,
+.programerror,
+.storeerror,
+.contacterror,
+.regionerror,
+.lanuageerror,
+.currencyerror,
+.channelerror,
+.maxcpmerror,
+.dailylBudget,
+.fcaperror,
+.pcerror,
+.pverror,
+.totalbudegeterror,
+.durationerror,
+.strategyerror,
+.campaignerror,
+.budegeterror {
+  color: red;
+  position: absolute;
+  font-size: 12px;
+  display: none;
+}
+
+.failedalert {
+  background-color: rgba(48, 48, 48, 0.95);
+}
+
+.successalert {
+  background-color: rgba(48, 48, 48, 0.95);
+}
+
+.green-box {
+  background-color: #00c18b!important;
+  overflow: hidden;
+  position: relative;
+}
+
+.customalert {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 99999999;
+  display: none;
+}
+
+.customalert-inner {
+  position: fixed;
+  top: 0px;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  left: 25%;
+}
+
+.customalert-inner-div {
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .5);
+  background-color: #fff;
+  padding-bottom: 15px;
+}
+
+.customalertheader {
+  background-color: #00c18b;
+  color: #fff;
+  font-size: 90px;
+  padding: 0px 0px;
+}
+
+.red-box {
+  background-color: #b3152c!important;
+}
+
+.customalert-inner p {
+  color: #1f1f1f;
+  font-weight: 500;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.customalert-inner p span {
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 5px 10px;
+}
+
+.btn-red {
+  background-color: #b3152c;
+  color: #fff;
+  font-weight: 300;
+}
+
+.btn-green {
+  background-color: #00c18b;
+  color: #fff;
+  font-weight: 300;
+  font-size: 12px;
+  border: 1px solid #01b085;
+}
+
+.appError {
+  text-align: center;
+  max-width: 580px;
+  margin: 120px auto;
+}
+
+.error_Wrp .fa.fa-times-circle {
+  color: red;
+  font-size: 80px;
+}
+
+.failedalert {
+  background-color: rgba(48, 48, 48, 0.95);
+}
+
+.successalert {
+  background-color: rgba(48, 48, 48, 0.95);
+}
+
+.green-box {
+  background-color: #00c18b!important;
+  overflow: hidden;
+  position: relative;
+}
+
+.customalert {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 99999999;
+  display: none;
+}
+
+.customalert-inner {
+  position: fixed;
+  top: 0px;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  left: 25%;
+}
+
+.customalert-inner-div {
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .5);
+  background-color: #fff;
+  padding-bottom: 15px;
+}
+
+.customalertheader {
+  background-color: #00c18b;
+  color: #fff;
+  font-size: 90px;
+  padding: 0px 0px;
+}
+
+.red-box {
+  background-color: #b3152c!important;
+}
+
+.customalert-inner p {
+  color: #1f1f1f;
+  font-weight: 500;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.customalert-inner p span {
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 5px 10px;
+}
+
+.btn-red {
+  background-color: #b3152c;
+  color: #fff;
+  font-weight: 300;
+}
+
+.btn-green {
+  background-color: #00c18b;
+  color: #fff;
+  font-weight: 300;
+  font-size: 12px;
+  border: 1px solid #01b085;
+}
+
+/*.login-wrp {
+  display: none;
+}*/
+
+#loginSubmit {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  width: 100%;
+  color: #fff;
+  background-color: #1b507f;
+  border: none;
+  border-radius: 0px;
+  padding: 10px 5px;
+  font-size: 15px;
+}
+
+#loginSubmit:hover {
+  cursor: pointer;
+}
+
+.login-wrap {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  position: relative;
+}
+
+.login-box {
+  background-color: #fff;
+   padding: 37px 30px 10px 30px!important;
+  margin: 0 auto;
+  color: #fff;
+  max-width: 410px;
+  width: 92%;
+  position: relative;
+  margin-left: auto;
+}
+
+.login-box a {
+  color: #00c18b !important;
+  padding: 0px!important;
+  line-height: normal!important;
+  font-size: inherit!important;
+  font-weight: 300;
+}
+
+.login-box a:focus {
+  color: #00c18b !important;
+}
+
+.form-elem-wrap a:hover {
+  color: #00c18b !important;
+}
+
+.login-box .main-icon {
+  /*background-image: url(../images/kiaro.png);*/
+  background-image: url(../images/preciso_ico.png);
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*background-size: contain;*/
+  background-size: 80%;
+
+}
+
+.main-icon {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  background-color: #eaeef1;
+  font-size: 140px;
+  color: #01a8df;
+  top: -33px;
+  left: 50%;
+  margin-left: -70px;
+  text-align: center;
+  padding-top: 12px;
+  overflow: hidden;
+  transform: translate(33px,0);
+}
+
+.login-box .main-icon .fa {
+  display: none;
+}
+
+.login-wrap .fa {
+  top: -21px;
+  position: relative;
+}
+
+.login-box .form-elem-wrap {
+  padding: 5px 0px;
+  clear: both;
+}
+
+.login-username {
+  padding-left: 40px!important;
+  background-image: url(../images/username.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.login-password {
+  padding-left: 40px!important;
+  background-image: url(../images/password.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.login-box .btn {
+  border-radius: 0px;
+  padding: 10px 5px;
+  font-size: 15px;
+}
+
+.btn-green {
+  background-color: #00c18b;
+  color: #fff;
+  font-weight: 300;
+  font-size: 12px;
+  border: 1px solid #01b085;
+}
+
+.login-box .form-control {
+  border-radius: 0px;
+  width: 100%;
+  border: 1px solid #e9eaec;
+  background-color: #eaeef1;
+  border-radius: 1px;
+  height: 38px;
+}
+
+.registration_wrp .form-control
+{
+ border-radius: 0px;
+  width: 100%;
+  border: 1px solid #e9eaec;
+  background-color: #eaeef1;
+  border-radius: 1px;
+  height: 30px; 
+}
+
+form {
+  padding: 4px;
+}
+
+.loader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/loader.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 99999999999!important;
+  background-size: 120px 120px;
+}
+
+.api-loader {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: block;
+}
+
+.appError {
+  text-align: center;
+  max-width: 580px;
+  margin: 120px auto;
+}
+
+.error_Wrp .fa.fa-times-circle {
+  color: red;
+  font-size: 80px;
+}
+
+.custom_loginbox {
+  max-width: 470px !important;
+}
+
+/* header CSS */
+.header {
+
+/*background-color: #022a3a;*/
+
+background-color: #2661DE;
+}
+
+.leftHeader {
+  display: inline-block;
+}
+
+.rightHeader a {
+  color: white;
+  font-weight: 500;
+}
+
+.rightHeader {
+  float: right;
+      margin: 7px 20px!important;
+}
+
+
+.loader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/loader.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 99999999999!important;
+  background-size: 120px 120px;
+}
+
+.api-loader {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: block;
+}
+
+input#updatesettingSubmit {
+  border: none !important;
+  float: left !important;
+  font-size: 16px;
+  padding: 7px 20px;
+  background: #3CA5E5;
+  color: #fff;
+  float: right;
+  font-weight: 500;
+}
+
+.wp-core-ui select {
+  max-width: unset !important;
+  background-size: unset !important;
+}
+
+.wp-menu-image.dashicons-before img {
+  /*width: 15px !important;*/
+  width: 20px !important;
+  margin-top: -4px !important;
+}
+/* Popup box BEGIN */
+.hover_bkgr_fricc {
+  background: rgba(0,0,0,.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.hover_bkgr_fricc .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.hover_bkgr_fricc > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+/*  height: 575px;*/
+  height: auto;
+
+  max-width: 768px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 76%;
+  position: relative;
+  border-radius: 8px;
+  /*padding: 40px 5%;*/
+  padding: 22px 2%!important;
+}
+
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+}
+
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+
+.trigger_popup_fricc {
+  cursor: pointer;
+  font-size: 12px;
+  display: inline-block;
+  margin: 5px 0;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.seprate {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.productImg {
+  display: inline-block;
+  float: left;
+  width: 25%;
+}
+
+.productImg img {
+  height: 50px;
+}
+
+.productTitle {
+  display: inline-block;
+  float: left;
+  width: 75%;
+}
+
+.productTitle h3 {
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+  margin-top: 14px;
+  font-size: 19px;
+}
+
+.banner-wrp-top {
+  height: 225px;
+  overflow-y: scroll;
+}
+
+.form-wrp {
+  display: flex;
+  padding: 10px 0 0 0;
+}
+
+.form-wrp label {
+  width: 25%;
+  margin: 3px 8px;
+  text-align: right;
+}
+
+.form-wrp .form-control {
+  height: 25px;
+  width: 75%;
+}
+
+.dynamicbannercreate {
+  margin-top: 10px;
+}
+
+button.btn.btn-green.deletebanner {
+  background: #ff0000ab;
+  margin-left: 10px;
+}
+
+.failedalertbanner,.successalertbanner {
+  background-color: rgba(48, 48, 48, 0.95);
+}
+/* Popup box BEGIN */
+table.table-striped.table-bordered {
+  width: 100%;
+}
+#editBanner .form-control {
+    border: 1px solid #e9eaec;
+    background-color: #eaeef1; 
+    color: #000;
+}
+input#dynamicbanneredit {
+    background-color: #1b507f;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    border: 1px solid #1b507f;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.registration_wrp .l-header .logo
+{
+  height: 53px;
+  margin-bottom:12px;
+}
+.registration_wrp .login-box .form-group
+{
+  margin-bottom: 13px;
+}

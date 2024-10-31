@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700');
+@import url(font-awesome.css);
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size:12px;
+    background-color: #eaeef1!important;
+ /*   font-family: 'Montserrat', sans-serif;*/
+    overflow-x: hidden;
+}
+*{
+    outline:none!important;
+}
+p, ul, li, h1, h2, h3, h4, h5, h6 {
+    padding:0px;
+    list-style-type: none;
+    font-weight:300;
+    margin:0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+}
+
+.clear {
+    clear:both;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    /*background-color: #1b507f!important;*/
+    background-color: #2661DE!important;
+    color: #fff!important;
+    /*border: 0px solid #1b507f!important;*/
+    border: 0px solid #2661DE!important;
+    background-image: url(../images/rightarrowbl.png), url(../images/leftarrowbl.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+}
+
+.nav-fill .nav-item {
+    color: #403939!important;
+}
+.nav-tabs .nav-link {
+    border: 0px solid #d4d4d4!important;
+    border-radius: 0!important;
+    background-image: url(../images/defaultright.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-color: #f4f6f8;
+    background-size: auto 100%;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}

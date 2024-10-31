@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.eot');
+  src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg'), 
+  url('../fonts/Montserrat-Bold.ttf') format('truetype'), 
+  url('../fonts/Montserrat-Bold.woff') format('woff'), 
+  url('../fonts/Montserrat-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.eot');
+  src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg'), 
+  url('../fonts/Montserrat-Regular.ttf') format('truetype'), 
+  url('../fonts/Montserrat-Regular.woff') format('woff'), 
+  url('../fonts/Montserrat-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('../fonts/Montserrat-SemiBold.eot');
+  src: url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg'), 
+  url('../fonts/Montserrat-SemiBold.ttf') format('truetype'),
+  url('../fonts/Montserrat-SemiBold.woff') format('woff'), 
+  url('../fonts/Montserrat-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size:12px;
+    background-color: #fff!important;
+    font-family: 'Montserrat-Regular';
+    overflow-x: hidden;
+}*/
+
+*{
+    outline:none!important;
+}
+p, ul, li, h1, h2, h3, h4, h5, h6 {
+    padding:0px;
+    list-style-type: none;
+    font-weight:300;
+    margin:0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+}
+
+.clear {
+    clear:both;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {    
+    background-color: #00c18b!important;
+    color: #fff!important;
+    border: 1px solid #00c18b!important;
+}
+
+.nav-fill .nav-item {
+    color: #403939!important;
+}
+.nav-tabs .nav-link {
+    border: 1px solid #d4d4d4!important;
+    border-radius: 0!important;
+}
